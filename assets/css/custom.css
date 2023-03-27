@@ -1,0 +1,35 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Espacio entre los elementos */
+    width: 1170px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.caja {
+    background-color: #0c3a64;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    cursor: pointer;
+    color:#fff;
+    border-radius: 20px;
+    flex: 1;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.caja:hover{
+    background-color: #0768ad;
+}
+
+.caja i {
+    margin-right: 10px;
+    border-right: 2px solid #fff;
+    padding-right: 10px;
+    font-size: 60px;
+    margin-left: 15px; 
+}
